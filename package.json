@@ -1,6 +1,6 @@
 {
   "name": "shazamify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A browserify transform to assist with creating shazam presentations",
   "main": "index.js",
   "scripts": {
