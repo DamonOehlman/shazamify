@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node test/all.js",
     "gendocs": "embellish README.md",
-    "demo": "budo examples/simple.js -- -t ."
+    "demo": "budo examples/simple.js -- -t .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,12 +27,14 @@
   "homepage": "https://github.com/DamonOehlman/shazamify",
   "dependencies": {
     "injectcode": "^1.1.1",
-    "through2": "^4.0.2"
+    "through2": "^4.0.2",
+    "snyk": "^1.385.2"
   },
   "devDependencies": {
     "budo": "^11.6.4",
     "embellish-readme": "^1.6.0",
     "ify": "^2.0.0",
     "tape": "^5.0.1"
-  }
+  },
+  "snyk": true
 }
