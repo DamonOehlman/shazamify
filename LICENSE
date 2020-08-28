@@ -1,27 +1,3 @@
-# shazamify
-
-This is a simple browserify transform that enables markdown files to be
-loaded with a `require` statement and passed through a set of tools to
-make useful markdown slides for
-[shazam](https://github.com/DamonOehlman/shazam)
-
-[![NPM](https://nodei.co/npm/shazamify.png)](https://nodei.co/npm/shazamify/)
-
-
-
-## Usage
-
-Install:
-
-```
-npm install shazamify --save
-```
-
-Add as a transform to your `package.json` as per the instructions in the
-[browserify handbook](https://github.com/substack/browserify-handbook#browserifytransform-field).
-
-## LICENSE
-
 The MIT License (MIT)
 
 Copyright (c) 2020 Damon Oehlman <damon.oehlman@gmail.com>
