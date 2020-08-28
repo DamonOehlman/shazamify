@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/DamonOehlman/shazamify",
   "dependencies": {
-    "injectcode": "^1.1.1",
+    "injectcode": "^1.3.0",
     "through2": "^4.0.2"
   },
   "devDependencies": {
